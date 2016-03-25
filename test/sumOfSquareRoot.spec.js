@@ -1,5 +1,7 @@
-var sumOfSquare = require('../sumOfSquareRoot');
-var chai = require('chai');
+if(!window) {
+  var sumOfSquare = require('../sumOfSquareRoot');
+  var chai = require('chai');
+}
 var expect = chai.expect;
 
 describe('sumOfSquare', function() {

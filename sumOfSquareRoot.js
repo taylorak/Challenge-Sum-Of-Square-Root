@@ -13,4 +13,6 @@ var validate = function(n) {
   }
 }
 
-module.exports = sumOfSquare;
+if(!window) {
+  module.exports = sumOfSquare;
+}
