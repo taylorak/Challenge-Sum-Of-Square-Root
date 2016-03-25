@@ -1,4 +1,4 @@
-var sumOfSquare = require('../sumOfSquare');
+var sumOfSquare = require('../sumOfSquareRoot');
 var chai = require('chai');
 var expect = chai.expect;
 
