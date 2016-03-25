@@ -12,6 +12,5 @@ var validate = function(n) {
     throw new TypeError('Not a number');
   }
 }
-module.exports = sumOfSquare;
 
-console.log(sumOfSquare(100));
+module.exports = sumOfSquare;
